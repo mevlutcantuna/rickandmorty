@@ -24,7 +24,7 @@ function App() {
     }
     return (
         <div className="App">
-            <MasterPage handlePageChange={handlePageChange} characters={characters}/>
+            <MasterPage history={history} handlePageChange={handlePageChange} characters={characters}/>
         </div>
   );
 }

@@ -8,11 +8,8 @@ import {createBrowserHistory} from 'history';
 import {Router,Switch,Route} from 'react-router-dom';
 import {routes} from '../routes';
 
-
-const history = createBrowserHistory();
-
 function MasterPage(props) {
-    const {characters,handlePageChange} = props;
+    const {characters,handlePageChange,history} = props;
 
     return (
         <div>
