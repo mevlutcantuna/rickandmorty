@@ -1,0 +1,18 @@
+.itemDetails{
+  margin: auto;
+  min-width: 20rem;
+  max-width: 25rem;
+  display: flex;
+  flex-direction: column;
+  &__image{
+    margin-top: 2rem;
+    border-radius: 1.5rem;
+  }
+
+  &__info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+    font-size: 2rem;
+  }
+}
